@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%-include('./inc/head') %>
+  </head>
+  <body>
+    <%-include('./inc/nav') %>
+
+    <section class="login">
+      <form action="/admin/add" method="post">
+        <input type="text" name="title" placeholder="Title" required />
+        <input type="text" name="short" placeholder="Short" required />
+        <textarea
+          name="long"
+          placeholder="text here..."
+          cols="30"
+          rows="10"
+          required
+        ></textarea>
+
+        <input type="submit" value="Publish" />
+      </form>
+    </section>
+
+    <footer><%-include('./inc/footer') %></footer>
+  </body>
+</html>

@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px 0;
+  border-bottom: 2px solid black;
+}
+
+nav > ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
+nav > ul li {
+  padding: 10px 20px;
+}
+nav > ul li a {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+nav > ul li a:hover {
+  color: aliceblue;
+  background-color: black;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+section {
+  width: 80%;
+  max-width: 800px;
+  margin: 20px auto;
+
+  padding: 40px;
+}
+
+section h1 {
+  color: #262626;
+  margin-bottom: 20px;
+}
+section ul {
+  list-style-type: square;
+}
+section li {
+  margin-bottom: 30px;
+}
+section a {
+  color: rgb(0, 125, 163);
+}
+
+.login {
+  margin-top: 40px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: 0 auto;
+}
+form input {
+  margin-top: 10px;
+  padding: 5px 10px;
+}
+
+form input[type="submit"] {
+  cursor: pointer;
+}
+
+textarea {
+  margin-top: 20px;
+  padding: 10px;
+}
+
+footer div {
+  padding: 20px;
+}
